@@ -2,6 +2,7 @@
 
 apt update && apt upgrade -y
 apt install python3 -y
+chmod +x .shell/setup.sh
 echo 'alias termux-tool="py $HOME/termux/main.py"' >> $HOME/.bashrc
 echo 'alias py="python"' >> $HOME/.bashrc
 source $HOME/.bashrc
