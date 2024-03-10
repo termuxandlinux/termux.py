@@ -5,7 +5,7 @@ termux.py is a tool for Termux to use the Special Termux Commands easy.
 
 ```bash
 apt update && apt upgrade -y
-pkg install git
+pkg install git -y
 git clone https://github.com/termuxandlinux/termux.py
 cd termux.py
 chmod +x start.sh
